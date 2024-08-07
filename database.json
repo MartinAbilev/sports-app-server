@@ -1,0 +1,11 @@
+{
+  "dev":
+  {
+    "host": "127.0.0.1",
+    "host_port": "3333",
+    "user": "root",
+    "password" : "root",
+    "database": "spdb",
+    "driver": "mysql"
+  }
+}

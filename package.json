@@ -1,0 +1,42 @@
+{
+  "name": "sports_app",
+  "version": "1.0.0",
+  "description": "sports statsistics",
+  "main": "sports_app.js",
+  "dependencies": {
+    "db-migrate": "^0.10.0-beta.20",
+    "db-migrate-mysql": "^1.1.7",
+    "express": "^4.14.0",
+    "form-data": "^2.1.2",
+    "jade": "^1.11.0",
+    "needle": "^1.1.2",
+    "node-datetime": "^1.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta6",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "db-migrate": "^0.10.0-beta.19",
+    "express": "^4.14.0",
+    "form-data": "^2.1.2",
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
+    "needle": "^1.1.2",
+    "node-datetime": "^1.0.0",
+    "node-uuid": "^1.4.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/martin_abilev/sports_app.git"
+  },
+  "author": "Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/martin_abilev/sports_app/issues"
+  },
+  "homepage": "https://gitlab.com/martin_abilev/sports_app#README"
+}

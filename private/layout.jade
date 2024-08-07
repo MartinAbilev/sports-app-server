@@ -1,0 +1,34 @@
+doctype html
+html( lang="en" )
+  head
+    title Sports app
+    script( src= '/js/jquery-1.11.3.js' )
+    script( src= '/js/brackets.js' )
+    script( src= '/js/handlebars-v4.0.5.js' )
+    script( src= '/' + sessid + '/script.js' )
+    script( src= '/' + sessid + '/js/script2.js' )
+    link( href='/css/main.css', rel='stylesheet' )
+    link( href='/style.css', rel='stylesheet' )
+  body( data-sessid = sessid, data-user_uuid = uuid )
+    h1 Sports app - participants ranking statistic system sessid=#{sessid}, user uuid=#{uuid}
+    .participant_form( data-visible="1" )
+      p
+        label First name:
+          input( type="text", name="first_name" )
+      p
+        label Last name:
+          input( type="text", name="last_name" )
+        
+      .button.create_participant Create participant
+    #participants
+    .brackets
+
+script( id='participant-template',type='text/x-handlebars-template' )
+  table
+    tr
+      th Name
+      th Position
+    tr
+      td {{name}}
+      td {{position}}
+  br

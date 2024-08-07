@@ -1,0 +1,42 @@
+body
+{
+  background: #6cc091;
+  color: white;
+  text-align: center;
+}
+h1
+{
+  color: white;
+  background: #5da77d;
+}
+
+.participant_form
+{
+  text-align: center;
+  text-align: -webkit-center;
+}
+.participant_form[data-visible="0"]
+{
+  display: none;
+}
+.participant_form p
+{
+  width: 15rem;
+}
+
+.brackets
+{
+  text-align: center;
+  display: inline-block;
+}
+
+.brackets .container-brackets .round .match .player
+{
+  background: #cccccc;
+  border-color: white;
+  color: #3a3a3a;
+}
+.brackets .container-brackets .separator-brackets .line
+{
+  border-color: white;
+}

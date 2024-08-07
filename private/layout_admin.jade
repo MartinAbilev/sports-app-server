@@ -1,0 +1,22 @@
+doctype html
+html( lang="en" )
+  head
+    title Sports app ADMIN
+    link( href='/css/main.css', rel='stylesheet' )
+    link( href='/style.css', rel='stylesheet' )
+    script( src= '/js/jquery.min.js' )
+    script( src= '/js/handlebars-v4.0.5.js' )
+    script( src= '/' + sessid + '/script_admin.js' )
+  body( data-sessid = sessid, data-user_uuid = uuid )
+    h1 Sports app ADMIN- participants ranking statistic system sessid=#{sessid}, user uuid=#{uuid}
+    #participants
+
+script( id='participant-template',type='text/x-handlebars-template' )
+  table
+    tr
+      th Name
+      th Position
+    tr
+      td {{name}}
+      td {{position}}
+  br
